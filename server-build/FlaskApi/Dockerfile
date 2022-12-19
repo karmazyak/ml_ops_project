@@ -5,7 +5,7 @@ RUN mkdir -p /FlaskApi
 COPY . /FlaskApi
 WORKDIR /FlaskApi
 
-RUN pip install --no-cache-dir -r ./requirements.txt
+RUN pip install --no-cache-dir -r ./server-build/FlaskApi/requirements.txt
 
 EXPOSE 5000
 
